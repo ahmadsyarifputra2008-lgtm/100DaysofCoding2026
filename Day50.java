@@ -9,8 +9,9 @@ public class Day50 {
     int  a = i.nextInt();
 
     System.out.print("angka "+a);
-    String b  = (a %2==0 )? " Adalah Bilangan Genap": " adalah Bilangan Ganjil";
-    System.out.println(b);
+    String c = ( a == 0)?" Angka nol":(a %2 == 0)?" Bilangan genap":(a %2!=0)?" Bilangan ganjil":" angka tidak diketahui";
+    
+    System.out.println(c);
 
     i.close();
     }
