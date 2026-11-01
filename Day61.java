@@ -9,7 +9,7 @@ public class Day61 {
         int total = 1;
 
         for (int i = 1; i<= n ; i++){
-            System.out.print(i + " + ");
+            System.out.print(i + " x ");
             total*=i;
         }System.out.print("\b\b = " + total);
       in.close();
